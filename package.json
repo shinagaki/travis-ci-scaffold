@@ -1,0 +1,24 @@
+{
+  "name": "travis-ci-scaffold",
+  "version": "0.0.0",
+  "description": "Travis CI scaffolding.",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/testem/testem.js -l PhantomJS ci"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/1000ch/travis-ci-scaffold.git"
+  },
+  "keywords": [
+    "travis"
+  ],
+  "author": "1000ch",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/1000ch/travis-ci-scaffold/issues"
+  },
+  "devDependencies": {
+    "testem": "~0.3.27"
+  }
+}
