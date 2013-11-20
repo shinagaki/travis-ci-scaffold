@@ -1,6 +1,6 @@
 function returnTrue() {
     return true;
 }
-function returnFalse() {
+function returnFalse () {
     return false;
 }
